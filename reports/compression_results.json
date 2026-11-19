@@ -1,0 +1,90 @@
+[
+  {
+    "tag": "baseline",
+    "kind": "custom",
+    "alpha": null,
+    "resolution": 224,
+    "pretrained": false,
+    "params": 11169476,
+    "keras_kb": 130941.1,
+    "accuracy": 0.878,
+    "macro_f1": 0.8782
+  },
+  {
+    "tag": "mob_ref",
+    "kind": "mobilenet",
+    "alpha": 1.0,
+    "resolution": 224,
+    "pretrained": true,
+    "params": 2263108,
+    "keras_kb": 9462.8,
+    "accuracy": 0.8862,
+    "macro_f1": 0.8882
+  },
+  {
+    "tag": "mob_a75",
+    "kind": "mobilenet",
+    "alpha": 0.75,
+    "resolution": 224,
+    "pretrained": false,
+    "params": 1387188,
+    "keras_kb": 16741.7,
+    "accuracy": 0.252,
+    "macro_f1": 0.1006
+  },
+  {
+    "tag": "mob_a50",
+    "kind": "mobilenet",
+    "alpha": 0.5,
+    "resolution": 224,
+    "pretrained": false,
+    "params": 711348,
+    "keras_kb": 8884.9,
+    "accuracy": 0.252,
+    "macro_f1": 0.1006
+  },
+  {
+    "tag": "mob_a35",
+    "kind": "mobilenet",
+    "alpha": 0.35,
+    "resolution": 224,
+    "pretrained": false,
+    "params": 415332,
+    "keras_kb": 5450.8,
+    "accuracy": 0.2602,
+    "macro_f1": 0.1032
+  },
+  {
+    "tag": "mob_r192",
+    "kind": "mobilenet",
+    "alpha": 1.0,
+    "resolution": 192,
+    "pretrained": true,
+    "params": 2263108,
+    "keras_kb": 9462.8,
+    "accuracy": 0.8862,
+    "macro_f1": 0.8863
+  },
+  {
+    "tag": "mob_r160",
+    "kind": "mobilenet",
+    "alpha": 1.0,
+    "resolution": 160,
+    "pretrained": true,
+    "params": 2263108,
+    "keras_kb": 9462.8,
+    "accuracy": 0.8943,
+    "macro_f1": 0.8915
+  },
+  {
+    "tag": "mob_r128",
+    "kind": "mobilenet",
+    "alpha": 1.0,
+    "resolution": 128,
+    "pretrained": true,
+    "params": 2263108,
+    "keras_kb": 9462.5,
+    "accuracy": 0.878,
+    "macro_f1": 0.877
+  }
+]

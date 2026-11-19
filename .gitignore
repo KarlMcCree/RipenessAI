@@ -1,0 +1,70 @@
+# ---------- Datasets ----------
+data/
+*.zip
+*.tar.gz
+*.rar
+
+# ---------- Trained models ----------
+models/
+*.keras
+*.tflite
+*.h5
+*.pb
+*.onnx
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+.myvenv/
+.conda/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------- VS Code ----------
+.vscode/
+*.code-workspace
+
+# ---------- OS junk ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# ---------- IDE (PyCharm etc.) ----------
+.idea/
+*.iml
+
+# ---------- Logs & temp ----------
+*.log
+logs/
+tmp/
+.temp/
+
+# ---------- TensorFlow checkpoints ----------
+checkpoint
+*.ckpt
+*.ckpt.index
+*.ckpt.data-*
+*.ckpt.meta
+training_checkpoints/
+
+# ---------- Coverage ----------
+.coverage
+htmlcov/
+.pytest_cache/

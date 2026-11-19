@@ -1,0 +1,146 @@
+[
+  {
+    "tag": "baseline",
+    "mode": "fp32",
+    "resolution": 224,
+    "size_kb": 43635.9
+  },
+  {
+    "tag": "baseline",
+    "mode": "fp16",
+    "resolution": 224,
+    "size_kb": 21822.3
+  },
+  {
+    "tag": "baseline",
+    "mode": "int8",
+    "resolution": 224,
+    "size_kb": 10923.2
+  },
+  {
+    "tag": "mob_a35",
+    "mode": "fp32",
+    "resolution": 224,
+    "size_kb": 1597.2
+  },
+  {
+    "tag": "mob_a35",
+    "mode": "fp16",
+    "resolution": 224,
+    "size_kb": 859.7
+  },
+  {
+    "tag": "mob_a35",
+    "mode": "int8",
+    "resolution": 224,
+    "size_kb": 633.1
+  },
+  {
+    "tag": "mob_a50",
+    "mode": "fp32",
+    "resolution": 224,
+    "size_kb": 2727.3
+  },
+  {
+    "tag": "mob_a50",
+    "mode": "fp16",
+    "resolution": 224,
+    "size_kb": 1424.8
+  },
+  {
+    "tag": "mob_a50",
+    "mode": "int8",
+    "resolution": 224,
+    "size_kb": 974.5
+  },
+  {
+    "tag": "mob_a75",
+    "mode": "fp32",
+    "resolution": 224,
+    "size_kb": 5319.9
+  },
+  {
+    "tag": "mob_a75",
+    "mode": "fp16",
+    "resolution": 224,
+    "size_kb": 2721.1
+  },
+  {
+    "tag": "mob_a75",
+    "mode": "int8",
+    "resolution": 224,
+    "size_kb": 1729.3
+  },
+  {
+    "tag": "mob_r128",
+    "mode": "fp32",
+    "resolution": 128,
+    "size_kb": 8697.7
+  },
+  {
+    "tag": "mob_r128",
+    "mode": "fp16",
+    "resolution": 128,
+    "size_kb": 4410.0
+  },
+  {
+    "tag": "mob_r128",
+    "mode": "int8",
+    "resolution": 128,
+    "size_kb": 2672.3
+  },
+  {
+    "tag": "mob_r160",
+    "mode": "fp32",
+    "resolution": 160,
+    "size_kb": 8697.7
+  },
+  {
+    "tag": "mob_r160",
+    "mode": "fp16",
+    "resolution": 160,
+    "size_kb": 4410.0
+  },
+  {
+    "tag": "mob_r160",
+    "mode": "int8",
+    "resolution": 160,
+    "size_kb": 2672.3
+  },
+  {
+    "tag": "mob_r192",
+    "mode": "fp32",
+    "resolution": 192,
+    "size_kb": 8697.7
+  },
+  {
+    "tag": "mob_r192",
+    "mode": "fp16",
+    "resolution": 192,
+    "size_kb": 4410.0
+  },
+  {
+    "tag": "mob_r192",
+    "mode": "int8",
+    "resolution": 192,
+    "size_kb": 2672.3
+  },
+  {
+    "tag": "mob_ref",
+    "mode": "fp32",
+    "resolution": 224,
+    "size_kb": 8697.7
+  },
+  {
+    "tag": "mob_ref",
+    "mode": "fp16",
+    "resolution": 224,
+    "size_kb": 4410.0
+  },
+  {
+    "tag": "mob_ref",
+    "mode": "int8",
+    "resolution": 224,
+    "size_kb": 2672.3
+  }
+]

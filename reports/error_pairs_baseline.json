@@ -1,0 +1,5 @@
+{
+  "Ripe->Semi-ripe": 7,
+  "Overripe->Ripe": 1,
+  "Semi-ripe->Ripe": 3
+}
