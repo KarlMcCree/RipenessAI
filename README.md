@@ -21,7 +21,7 @@ but not latency reduction on host x86 CPUs (see report ).
 > resolution with **zero accuracy loss**, and a +0.8 pt gain over the
 > 224×224 reference. Below 160×160, accuracy degrades (87.8% at 128×128).
 > Width compression (α < 1.0) cannot be evaluated cleanly on this dataset
-> because no pretrained ImageNet checkpoints exist at reduced widths;
+> because no pretrained ImageNet checkpoints exist at reduced widths;s
 > training from scratch collapses to chance (see report §4).
 
 ## Pipeline
@@ -63,10 +63,11 @@ zero originals; augmented images excluded from training entirely.
 
 ## Reproduce
 
-# Obtain BananaImageBD from Mendeley Data
-# (DOI 10.17632/ptfscwtnyz.2), extract to:
-#   data/real/{Green,Semi-ripe,Ripe,Overripe}/
-#   data/augmented/{Green,Semi-ripe,Ripe,Overripe}/
+Obtain BananaImageBD from Mendeley Data
+
+(DOI 10.17632/ptfscwtnyz.2), extract to:
+data/real/{Green,Semi-ripe,Ripe,Overripe}/
+data/augmented/{Green,Semi-ripe,Ripe,Overripe}/
 
 ```
 
